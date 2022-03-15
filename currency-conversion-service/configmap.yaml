@@ -1,0 +1,51 @@
+apiVersion: v1
+items:
+- apiVersion: v1
+  data:
+    CURRENCY_EXCHANGE_URI: http://currency-exchange
+  kind: ConfigMap
+  metadata:
+#    creationTimestamp: "2022-03-15T01:09:23Z"
+    name: currency-conversion
+    namespace: default
+#    resourceVersion: "179450"
+#    uid: eb85d6f2-fba2-4472-a9b0-d2d6e0ecf369
+#- apiVersion: v1
+#  data:
+#    ca.crt: |
+#      -----BEGIN CERTIFICATE-----
+#      MIIELDCCApSgAwIBAgIQNLwnxUjzPVypavci0W82sTANBgkqhkiG9w0BAQsFADAv
+#      MS0wKwYDVQQDEyRlMjA4ZTRjMy05OTIwLTRlZWItODk3NS1mMzIzNWZkOTRmNzgw
+#      IBcNMjIwMzE0MTYwMzA4WhgPMjA1MjAzMDYxNzAzMDhaMC8xLTArBgNVBAMTJGUy
+#      MDhlNGMzLTk5MjAtNGVlYi04OTc1LWYzMjM1ZmQ5NGY3ODCCAaIwDQYJKoZIhvcN
+#      AQEBBQADggGPADCCAYoCggGBANWe/gWMSsHtsFHqSt5O6g2S7KX+P66BPH0GxwJ3
+#      RRCswcq50iIl0Yw2RPW1qnOTeL1gvayzgp4Ya5G1Z065uZE1CBYS82jLWzL05QB0
+#      Dqat2mvC4cOiXNli4F3+8d66duXNJAiYARRZkJJfuv5fw83yHXuGqn6fKLTcRPRa
+#      vifXE3/O9TPvGuQrg2aHE1gGnmatxzY/HTSqKPle9Q0YWfBwrSkfAr9gjefhjCsE
+#      ejWWHlVH+1QksOW/Wcae/hp9wgb3DYU9XfyocYGAfkOCVJaNsAwvM1mwcEb010Xg
+#      B8HwO63Q65Kwa+EEDlVQNxTRXLZYXVpwTOevc3ZGxgEyUdoD73eZeXa/n0vIibRS
+#      OpSCdENe7SFMSOY0nHM9qKrBXdueZ7DLag6o1oN1ja4wDU1Y2wWklN+dBME5bTM4
+#      9YWB/GQWHMLnLNioGiyZiMLoB0VCKBZ+yy9e9yahc4kHOWEiAzcsZT3VYA86GNMt
+#      YIOKUj75Iwl1nzDrNg6o5CqgmQIDAQABo0IwQDAOBgNVHQ8BAf8EBAMCAgQwDwYD
+#      VR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUvovht2IOTYARtyjoRnavHEU75bcwDQYJ
+#      KoZIhvcNAQELBQADggGBAJk7zZetq4tUALuypwrKzPfpLgDtnQV15jRTjvDrweHp
+#      lZHQvL98bXurZI9/pYxyPGMiDlMfSBeSMTeFx6d9J/xccNNN9C/4pG1XQFzuLi4R
+#      SHcMW3kJPAvEYzfQTWOzbLQM4kUYQQDEu6wRhiD+etk/TYITfhTb5fP/PLB1rCUd
+#      8nPeaf8CkxV+ZLz8MVX5/Tadinp0hGh/uAvPyRchcOkr3xylid1Wl8xNpy07Vgpw
+#      8wgwTK4QkD2ch8dQ50LMADuDSYdQnaJr12ziHNhYwkyj3+CDg/FE0nbUhmnbXoGR
+#      XOmIez7g9l4vT2WYge1EZAubW0Daj2Bx1Q98XZOa16fsenx6y+HrPkWl7Mhr35z+
+#      e7uiyuymZI33ru3ckVxpJDGICesUo/HmYX4rrkRgzIYAdA78kVFgCHbGhTRmvpGl
+#      oFfIMc9uGJMw+OQ1n4WXCUOlBNelnLdntDPgvsB3kYFcC7zm+E7N3rInppWneRk5
+#      pJff40rIYi1YeEYMJ1ltEQ==
+#      -----END CERTIFICATE-----
+#  kind: ConfigMap
+#  metadata:
+#    creationTimestamp: "2022-03-14T17:06:01Z"
+#    name: kube-root-ca.crt
+#    namespace: default
+#    resourceVersion: "350"
+#    uid: f5af77fb-4b56-4e0c-88ad-85d994a5693b
+#kind: List
+#metadata:
+#  resourceVersion: ""
+#  selfLink: ""
